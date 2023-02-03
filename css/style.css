@@ -127,6 +127,26 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+ @media all and (max-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+    h2 {
+        width: 100%;
+    }
+    .row {
+        flex-direction: row;
+        width: 100%;
+    }
+    .lessons .col {
+        width: 50%;
+    }
+    .card {
+        margin-top: 40px;
+        width: 100%;
+
+    }
+}
 
 @media all and (max-width: 480px) {
     .container {
@@ -181,3 +201,5 @@ img {
         padding-top: 30px;
     }
 }
+
+
