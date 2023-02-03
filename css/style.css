@@ -129,7 +129,7 @@ img {
  ************************************************/
  @media all and (max-width: 768px) {
     .container {
-        max-width: 768px;
+        max-width: 100%;
     }
     h2 {
         width: 100%;
@@ -144,7 +144,6 @@ img {
     .card {
         margin-top: 40px;
         width: 100%;
-
     }
 }
 
@@ -165,9 +164,6 @@ img {
     .card {
         margin-top: 40px;
     }
-}
-
-@media all and (max-width: 480px) {
     .steps .col {
         width: 100%;
         padding-top: 20px;
@@ -183,9 +179,6 @@ img {
         margin-top: 0px;
         padding-top: 30px;
     }
-}
-
-@media all and (max-width: 480px) {
     .why-us h2 {
         width: 70%;
         margin: auto;
